@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/LAB_1/build/pico-sdk/src/rp2040/hardware_regs/cmake_install.cmake")
-  include("C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/LAB_1/build/pico-sdk/src/rp2040/hardware_structs/cmake_install.cmake")
+  include("C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/Time-alarm/build/pico-sdk/src/rp2040/hardware_regs/cmake_install.cmake")
+  include("C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/Time-alarm/build/pico-sdk/src/rp2040/hardware_structs/cmake_install.cmake")
 
 endif()
 

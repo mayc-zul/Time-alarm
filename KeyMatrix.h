@@ -3,7 +3,7 @@
 
 // Counter mod-10 for debouncing and for the time between two consecutive executions
 // of function KBI_ReadKey 
-#define CNT_DEBOUNCE			205		// 10 ms -> RTC: 1ms
+#define CNT_DEBOUNCE			205		// 205 ms -> TIMER: 1ms
 #define CNT_SPLITREAD			1		// 1 ms
 
 // Columns configuration: C0, C1, C2, C3 -> GPIO5, GPIO4, GPIO3, GPIO2

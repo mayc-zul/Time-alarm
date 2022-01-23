@@ -7,37 +7,40 @@
 
 #include "rtc_datetime.h"
 
-
+// Definción de variables
 char datetime_str[21] = "";
 char datetime_strAlarm[21] = "";
 volatile bool FlagAlarm = false;
 char days[7][3] = {"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};
 char string[5] = "";
+
 // Definición estructurada Datetime
 datetime_t t = {
-    .year = 2021, // Year
-    .month = 12,  // Month 
-    .day = 28,    // Day  
-    .dotw = 2,    // Day-week
-    .hour = 13,   // Hour
-    .min = 42,    // Min
+    .year = 2022, // Year
+    .month = 1,  // Month 
+    .day = 23,    // Day  
+    .dotw = 0,    // Day-week 0:Sun - 6:Sat
+    .hour = 15,   // Hour
+    .min = 45,    // Min
     .sec = 00,    // Sec
 };
-
+// Definición estructurada Datetime para la alarma
 datetime_t alarm = {
-    .year = 2021, // Year
-    .month = 12,  // Month 
-    .day = 28,    // Day  
-    .dotw = 2,    // Day-week
-    .hour = 13,   // Hour
-    .min = 43,    // Min
+    .year = 2022, // Year
+    .month = 1,  // Month 
+    .day = 23,    // Day  
+    .dotw = 0,    // Day-week
+    .hour = 15,   // Hour
+    .min = 46,    // Min
     .sec = 00,    // Sec
 };
 
+// Definción del callback para atender la interrupción del RTC
 void rtc_callback(){
     FlagAlarm = true;
 }
 
+// Inicialización del RTC
 void rtc_datetimeInit(){
 
     // Start el RTC
@@ -47,9 +50,8 @@ void rtc_datetimeInit(){
 
 }
 
+// Formato para imprimir fecha en el LCD
 char* rtc_datetimeGet(){
-
-    
 
     rtc_get_datetime(&t);
     //strcat(datetime_str," ");
@@ -74,6 +76,7 @@ char* rtc_datetimeGet(){
     
 }
 
+// Modificación de la estructura Datetime de la fecha
 void rtc_datetimeSet(int dotw){
     char year[5];
     char month[3];
@@ -121,6 +124,7 @@ void rtc_datetimeSet(int dotw){
     strcpy(buffer, "");
 }
 
+// Definción de formato para imprimir el día de la semana
 void Weekday (int day, bool alarm){
     char bufferweekday[4] = "";
 
@@ -157,6 +161,7 @@ void Weekday (int day, bool alarm){
     
 }
 
+// Función para validar si se ingresa un digito antes de un cero
 void ValidFormat(int value){
     if(value > 9){
         itoa(value, string, 10);
@@ -166,6 +171,7 @@ void ValidFormat(int value){
     }
 }  
 
+// Funcióna para asignar el día de la semana correspondiente al número correspondiente al día de la semana
 void assingDay(int cont, bool alarm){
     if (alarm){
         buffer_alarm[0] = days[cont][0];
@@ -189,7 +195,8 @@ void assingDay(int cont, bool alarm){
 
 }
 
-// ----- Alarm -----
+// --------------------- Alarma --------------------
+// Formato para imprimir la fehca de la alarma
 char* rtc_datetimeGetAlarm(){
 
     //strcat(datetime_str," ");
@@ -214,6 +221,7 @@ char* rtc_datetimeGetAlarm(){
     
 }
 
+// Modificación de la fecha de la alarma
 void rtc_datetimeSetAlarm(int dotw){
     char year[5];
     char month[3];

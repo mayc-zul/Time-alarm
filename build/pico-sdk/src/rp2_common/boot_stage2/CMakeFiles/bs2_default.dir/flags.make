@@ -4,7 +4,7 @@
 # compile ASM with C:/RPPicoSDK/armcc/10 2021.10/bin/arm-none-eabi-gcc.exe
 ASM_DEFINES = -DPICO_BOARD=\"pico\" -DPICO_BUILD=1 -DPICO_NO_HARDWARE=0 -DPICO_ON_DEVICE=1
 
-ASM_INCLUDES = -IC:\RPPicoSDK\sdk\pico\pico-sdk\src\rp2_common\boot_stage2\asminclude -IC:\RPPicoSDK\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include -IC:\RPPicoSDK\sdk\pico\pico-sdk\src\rp2_common\hardware_base\include -IC:\RPPicoSDK\sdk\pico\pico-sdk\src\common\pico_base\include -IC:\Users\Maycol\DOCUME~1\UdeA\ONCEAV~1\EMBEBI~1\LABORA~1\LAB_1\build\GENERA~1\PICO_B~1 -IC:\RPPicoSDK\sdk\pico\pico-sdk\src\boards\include -IC:\RPPicoSDK\sdk\pico\pico-sdk\src\rp2_common\pico_platform\include -IC:\RPPicoSDK\sdk\pico\pico-sdk\src\rp2_common\boot_stage2\include
+ASM_INCLUDES = -IC:\RPPicoSDK\sdk\pico\pico-sdk\src\rp2_common\boot_stage2\asminclude -IC:\RPPicoSDK\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include -IC:\RPPicoSDK\sdk\pico\pico-sdk\src\rp2_common\hardware_base\include -IC:\RPPicoSDK\sdk\pico\pico-sdk\src\common\pico_base\include -IC:\Users\Maycol\DOCUME~1\UdeA\ONCEAV~1\EMBEBI~1\LABORA~1\TIME-A~1\build\GENERA~1\PICO_B~1 -IC:\RPPicoSDK\sdk\pico\pico-sdk\src\boards\include -IC:\RPPicoSDK\sdk\pico\pico-sdk\src\rp2_common\pico_platform\include -IC:\RPPicoSDK\sdk\pico\pico-sdk\src\rp2_common\boot_stage2\include
 
 ASM_FLAGS = -mcpu=cortex-m0plus -mthumb -O3 -DNDEBUG
 

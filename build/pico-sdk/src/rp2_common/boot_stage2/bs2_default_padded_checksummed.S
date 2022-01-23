@@ -1,4 +1,4 @@
-// Padded and checksummed version of: C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/LAB_1/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/Time-alarm/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

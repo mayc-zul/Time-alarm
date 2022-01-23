@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/LAB_1/build/CMakeFiles/ELF2UF2Build"
+			"file" : "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/Time-alarm/build/CMakeFiles/ELF2UF2Build"
 		},
 		{
-			"file" : "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/LAB_1/build/CMakeFiles/ELF2UF2Build.rule"
+			"file" : "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/Time-alarm/build/CMakeFiles/ELF2UF2Build.rule"
 		},
 		{
-			"file" : "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/LAB_1/build/CMakeFiles/ELF2UF2Build-complete.rule"
+			"file" : "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/Time-alarm/build/CMakeFiles/ELF2UF2Build-complete.rule"
 		},
 		{
-			"file" : "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/LAB_1/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule"
+			"file" : "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/Time-alarm/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule"
 		},
 		{
-			"file" : "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/LAB_1/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule"
+			"file" : "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/Time-alarm/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule"
 		},
 		{
-			"file" : "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/LAB_1/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule"
+			"file" : "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/Time-alarm/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule"
 		},
 		{
-			"file" : "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/LAB_1/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule"
+			"file" : "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/Time-alarm/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule"
 		},
 		{
-			"file" : "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/LAB_1/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule"
+			"file" : "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/Time-alarm/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule"
 		},
 		{
-			"file" : "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/LAB_1/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule"
+			"file" : "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/Time-alarm/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule"
 		},
 		{
-			"file" : "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/LAB_1/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule"
+			"file" : "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/Time-alarm/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule"
 		}
 	],
 	"target" : 

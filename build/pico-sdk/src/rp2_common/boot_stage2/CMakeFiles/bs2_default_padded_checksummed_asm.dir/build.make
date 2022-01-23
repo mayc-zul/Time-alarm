@@ -52,10 +52,10 @@ RM = C:\RPPicoSDK\cmake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Maycol\Documents\UdeA\Onceavo semestre\Embebidos\Laboratorio\LAB_1"
+CMAKE_SOURCE_DIR = "C:\Users\Maycol\Documents\UdeA\Onceavo semestre\Embebidos\Laboratorio\Time-alarm"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Maycol\Documents\UdeA\Onceavo semestre\Embebidos\Laboratorio\LAB_1\build"
+CMAKE_BINARY_DIR = "C:\Users\Maycol\Documents\UdeA\Onceavo semestre\Embebidos\Laboratorio\Time-alarm\build"
 
 # Utility rule file for bs2_default_padded_checksummed_asm.
 
@@ -68,12 +68,12 @@ include pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checks
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 
 pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\Maycol\Documents\UdeA\Onceavo semestre\Embebidos\Laboratorio\LAB_1\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
-	cd /d C:\Users\Maycol\DOCUME~1\UdeA\ONCEAV~1\EMBEBI~1\LABORA~1\LAB_1\build\pico-sdk\src\RP2_CO~1\BOOT_S~1 && C:\Users\Maycol\AppData\Local\Programs\Python\Python39\python.exe C:/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/boot_stage2/pad_checksum -s 0xffffffff "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/LAB_1/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin" "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/LAB_1/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\Maycol\Documents\UdeA\Onceavo semestre\Embebidos\Laboratorio\Time-alarm\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
+	cd /d C:\Users\Maycol\DOCUME~1\UdeA\ONCEAV~1\EMBEBI~1\LABORA~1\TIME-A~1\build\pico-sdk\src\RP2_CO~1\BOOT_S~1 && C:\Users\Maycol\AppData\Local\Programs\Python\Python39\python.exe C:/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/boot_stage2/pad_checksum -s 0xffffffff "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/Time-alarm/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin" "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/Time-alarm/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S"
 
 pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\Maycol\Documents\UdeA\Onceavo semestre\Embebidos\Laboratorio\LAB_1\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
-	cd /d C:\Users\Maycol\DOCUME~1\UdeA\ONCEAV~1\EMBEBI~1\LABORA~1\LAB_1\build\pico-sdk\src\RP2_CO~1\BOOT_S~1 && "C:\RPPicoSDK\armcc\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Obinary "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/LAB_1/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf" "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/LAB_1/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\Maycol\Documents\UdeA\Onceavo semestre\Embebidos\Laboratorio\Time-alarm\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
+	cd /d C:\Users\Maycol\DOCUME~1\UdeA\ONCEAV~1\EMBEBI~1\LABORA~1\TIME-A~1\build\pico-sdk\src\RP2_CO~1\BOOT_S~1 && "C:\RPPicoSDK\armcc\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Obinary "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/Time-alarm/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf" "C:/Users/Maycol/Documents/UdeA/Onceavo semestre/Embebidos/Laboratorio/Time-alarm/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin"
 
 bs2_default_padded_checksummed_asm: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm
 bs2_default_padded_checksummed_asm: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
@@ -86,10 +86,10 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_as
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/clean:
-	cd /d C:\Users\Maycol\DOCUME~1\UdeA\ONCEAV~1\EMBEBI~1\LABORA~1\LAB_1\build\pico-sdk\src\RP2_CO~1\BOOT_S~1 && $(CMAKE_COMMAND) -P CMakeFiles\bs2_default_padded_checksummed_asm.dir\cmake_clean.cmake
+	cd /d C:\Users\Maycol\DOCUME~1\UdeA\ONCEAV~1\EMBEBI~1\LABORA~1\TIME-A~1\build\pico-sdk\src\RP2_CO~1\BOOT_S~1 && $(CMAKE_COMMAND) -P CMakeFiles\bs2_default_padded_checksummed_asm.dir\cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/clean
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Maycol\Documents\UdeA\Onceavo semestre\Embebidos\Laboratorio\LAB_1" C:\RPPicoSDK\sdk\pico\pico-sdk\src\rp2_common\boot_stage2 "C:\Users\Maycol\Documents\UdeA\Onceavo semestre\Embebidos\Laboratorio\LAB_1\build" "C:\Users\Maycol\Documents\UdeA\Onceavo semestre\Embebidos\Laboratorio\LAB_1\build\pico-sdk\src\rp2_common\boot_stage2" "C:\Users\Maycol\Documents\UdeA\Onceavo semestre\Embebidos\Laboratorio\LAB_1\build\pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Maycol\Documents\UdeA\Onceavo semestre\Embebidos\Laboratorio\Time-alarm" C:\RPPicoSDK\sdk\pico\pico-sdk\src\rp2_common\boot_stage2 "C:\Users\Maycol\Documents\UdeA\Onceavo semestre\Embebidos\Laboratorio\Time-alarm\build" "C:\Users\Maycol\Documents\UdeA\Onceavo semestre\Embebidos\Laboratorio\Time-alarm\build\pico-sdk\src\rp2_common\boot_stage2" "C:\Users\Maycol\Documents\UdeA\Onceavo semestre\Embebidos\Laboratorio\Time-alarm\build\pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/depend
 

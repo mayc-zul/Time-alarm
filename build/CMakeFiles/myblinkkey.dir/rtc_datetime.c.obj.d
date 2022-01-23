@@ -1,5 +1,5 @@
 CMakeFiles/myblinkkey.dir/rtc_datetime.c.obj: \
- C:\Users\Maycol\Documents\UdeA\Onceavo\ semestre\Embebidos\Laboratorio\LAB_1\rtc_datetime.c \
+ C:\Users\Maycol\Documents\UdeA\Onceavo\ semestre\Embebidos\Laboratorio\Time-alarm\rtc_datetime.c \
  c:\rppico~1\armcc\102021~1.10\arm-none-eabi\include\stdio.h \
  c:\rppico~1\armcc\102021~1.10\arm-none-eabi\include\_ansi.h \
  c:\rppico~1\armcc\102021~1.10\arm-none-eabi\include\newlib.h \
@@ -45,9 +45,9 @@ CMakeFiles/myblinkkey.dir/rtc_datetime.c.obj: \
  c:\rppico~1\armcc\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
  c:\rppico~1\armcc\102021~1.10\arm-none-eabi\include\stdint.h \
  c:\rppico~1\armcc\102021~1.10\arm-none-eabi\include\sys\_intsup.h \
- C:\Users\Maycol\DOCUME~1\UdeA\ONCEAV~1\EMBEBI~1\LABORA~1\LAB_1\build\GENERA~1\PICO_B~1/pico/version.h \
+ C:\Users\Maycol\DOCUME~1\UdeA\ONCEAV~1\EMBEBI~1\LABORA~1\TIME-A~1\build\GENERA~1\PICO_B~1/pico/version.h \
  C:\RPPicoSDK\sdk\pico\pico-sdk\src\common\pico_base\include/pico/config.h \
- C:\Users\Maycol\DOCUME~1\UdeA\ONCEAV~1\EMBEBI~1\LABORA~1\LAB_1\build\GENERA~1\PICO_B~1/pico/config_autogen.h \
+ C:\Users\Maycol\DOCUME~1\UdeA\ONCEAV~1\EMBEBI~1\LABORA~1\TIME-A~1\build\GENERA~1\PICO_B~1/pico/config_autogen.h \
  C:/RPPicoSDK/sdk/pico/pico-sdk/src/boards/include/boards/pico.h \
  C:/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  C:\RPPicoSDK\sdk\pico\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \
@@ -76,4 +76,4 @@ CMakeFiles/myblinkkey.dir/rtc_datetime.c.obj: \
  C:\RPPicoSDK\sdk\pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/rtc.h \
  C:\RPPicoSDK\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/rtc.h \
  C:\RPPicoSDK\sdk\pico\pico-sdk\src\common\pico_util\include/pico/util/datetime.h \
- C:\Users\Maycol\Documents\UdeA\Onceavo\ semestre\Embebidos\Laboratorio\LAB_1\rtc_datetime.h
+ C:\Users\Maycol\Documents\UdeA\Onceavo\ semestre\Embebidos\Laboratorio\Time-alarm\rtc_datetime.h

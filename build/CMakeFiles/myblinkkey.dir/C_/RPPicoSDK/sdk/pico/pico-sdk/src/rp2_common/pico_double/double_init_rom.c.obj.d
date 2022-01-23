@@ -28,9 +28,9 @@ CMakeFiles/myblinkkey.dir/C_/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/pico_dou
  c:\rppico~1\armcc\102021~1.10\arm-none-eabi\include\stdint.h \
  c:\rppico~1\armcc\102021~1.10\arm-none-eabi\include\sys\_intsup.h \
  c:\rppico~1\armcc\102021~1.10\arm-none-eabi\include\sys\_stdint.h \
- C:\Users\Maycol\DOCUME~1\UdeA\ONCEAV~1\EMBEBI~1\LABORA~1\LAB_1\build\GENERA~1\PICO_B~1/pico/version.h \
+ C:\Users\Maycol\DOCUME~1\UdeA\ONCEAV~1\EMBEBI~1\LABORA~1\TIME-A~1\build\GENERA~1\PICO_B~1/pico/version.h \
  C:\RPPicoSDK\sdk\pico\pico-sdk\src\common\pico_base\include/pico/config.h \
- C:\Users\Maycol\DOCUME~1\UdeA\ONCEAV~1\EMBEBI~1\LABORA~1\LAB_1\build\GENERA~1\PICO_B~1/pico/config_autogen.h \
+ C:\Users\Maycol\DOCUME~1\UdeA\ONCEAV~1\EMBEBI~1\LABORA~1\TIME-A~1\build\GENERA~1\PICO_B~1/pico/config_autogen.h \
  C:/RPPicoSDK/sdk/pico/pico-sdk/src/boards/include/boards/pico.h \
  C:/RPPicoSDK/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  C:\RPPicoSDK\sdk\pico\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \
