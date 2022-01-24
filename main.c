@@ -63,6 +63,7 @@ int main(void) {
         // Se detecta la tecla oprimida
         key = keyMatrixRead();
         
+
         // -----------------------------------------------------------------------------------
         // ------------- Seccion que se ejecuta al detectar interrupcion del timer -----------
         // -----------------------------------------------------------------------------------
@@ -71,7 +72,7 @@ int main(void) {
             if (ProcesarTecla == true){                         // Se identifica si una tecla fue presionada
                 cnt_ProcessKey++;                               // Activa el debounce
             } 
-            if(contDisplay == 500 && Flagshow){                 // Cada 500ms se hacer Scrolling shift
+            if(contDisplay == 400 && Flagshow){                 // Cada 500ms se hacer Scrolling shift
                 setCursor(1,1);                                 // Se escribe en la posicion columna 1, fila 1
                 WriteMessage(rtc_datetimeGet());
                 setCursor(1,2);                                 // Se escribe en la posicion columna 1, fila 2
@@ -85,6 +86,18 @@ int main(void) {
             }
 
             contDisplay++;
+            // -----------------------------------------------------------------------------------
+            // -------- Seccion que se ejecuta al detectar interrupcion del RTC (alarma) ---------
+            // -----------------------------------------------------------------------------------
+            if(FlagAlarm){
+                if(contAlarm % 400 == 0){
+                    LedOn = !LedOn;
+                    gpio_put(GP_LED_OUTPUT, LedOn);           // Se asigna el valor actual
+                }
+                contAlarm++;
+
+            }
+            
         }
 
         // -----------------------------------------------------------------------------------
@@ -134,21 +147,13 @@ int main(void) {
             cursorOn();
         }
 
-        // -----------------------------------------------------------------------------------
-        // -------- Seccion que se ejecuta al detectar interrupcion del RTC (alarma) ---------
-        // -----------------------------------------------------------------------------------
-        if(FlagAlarm){
+        if (FlagAlarm){
             // Se ejecuta por 1 minuto
             if(contAlarm == TIMER_ALARM || key == '1'){
                 contAlarm = 0;
                 gpio_put(GP_LED_OUTPUT, 0);           // Led off en caso de que se desactive la alarma y el led este encendido
                 FlagAlarm = false;
             }
-            if(contAlarm % 400 == 0){
-                LedOn = !LedOn;
-                gpio_put(GP_LED_OUTPUT, LedOn);           // Se asigna el valor actual
-            }
-            contAlarm++;
         }
 
         if(key != '.'){
@@ -160,8 +165,8 @@ int main(void) {
         case 'D':                                       // Selección del modo configuración
             Clear();
             returnHome();
-            cursorOn();
-            setCursor(1,1);
+
+            setCursor(2,1);
             WriteMessage(rtc_datetimeGet());
             setCursor(1,2);
             WriteMessage(rtc_datetimeGetAlarm());
